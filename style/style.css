@@ -1,3 +1,102 @@
 body {
   font-family: "Oxygen", sans-serif;
 }
+
+h1 {
+  font-weight: 700;
+  font-size: 600%;
+  color: white;
+  letter-spacing: 0.5rem;
+  padding-left: 3rem;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-size: 180%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h5 {
+  text-align: center;
+  font-size: 80%;
+}
+
+header {
+  background-image: url("../media/airplane_head_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+figcaption {
+  font-size: 90%;
+  padding-top: 0.4rem;
+}
+
+article p {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  min-height: 45vh;
+}
+
+.headline {
+  display: flex;
+  align-self: center;
+}
+
+.welcometext {
+  padding: 0.4rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.flex-cont-linkbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item-linkbox {
+  width: 33%;
+  text-align: center;
+}
+
+.img-linkbox {
+  width: 60%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.flex-cont-tripinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item-tripinfo {
+  margin: 0.2rem;
+  width: 25%;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.img-tripinfo {
+  width: 40%;
+}
