@@ -25,3 +25,11 @@
   text-align: center;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
 }
+
+.flex-item-tripinfo:hover {
+  margin: 0.2rem;
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.4);
+}
