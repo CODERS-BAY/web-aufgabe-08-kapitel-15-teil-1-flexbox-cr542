@@ -1,0 +1,52 @@
+.grid_raster {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-row-gap: 0.7rem;
+  grid-column-gap: 0.7rem;
+  grid-auto-flow: dense;
+  justify-content: center;
+}
+
+.grid_img_greece {
+  border: 1px solid black;
+}
+
+.grid_img_ireland {
+  border: 1px solid black;
+}
+
+.grid_img_venice {
+  border: 1px solid black;
+}
+
+.grid_img_london {
+  border: 1px solid black;
+}
+
+.grid_img_paris {
+  border: 1px solid black;
+}
+
+.grid_img_croatia {
+  border: 1px solid black;
+}
+
+#gallery_greece {
+  width: 100%;
+}
+#gallery_ireland {
+  width: 100%;
+}
+#gallery_venice {
+  width: 100%;
+}
+#gallery_london {
+  width: 100%;
+}
+#gallery_paris {
+  width: 100%;
+}
+#gallery_croatia {
+  width: 100%;
+}
