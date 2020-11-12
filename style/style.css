@@ -11,7 +11,7 @@ h1 {
 header a {
   text-decoration: none;
   color: white;
-  font-size: 400%;
+  font-size: 8vw;
 }
 
 h2 {
@@ -40,7 +40,7 @@ header {
 
 footer {
   padding: 0.5rem;
-  margin-top: 0.3rem;
+  margin-top: 2rem;
 }
 
 figcaption {
@@ -68,37 +68,9 @@ article p {
   text-align: center;
 }
 
-.flex-cont-linkbox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flex-item-linkbox {
-  width: 33%;
-  text-align: center;
-}
-
 .img-linkbox {
   width: 60%;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
-}
-
-.flex-cont-tripinfo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-item-tripinfo {
-  margin: 0.2rem;
-  width: 30%;
-  border: 1px solid black;
-  text-align: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
 }
 
 .img-tripinfo {
